@@ -1,0 +1,193 @@
+
+  body {
+    background-image: url(images/moon1.jpg);
+    background-size: cover;
+  }
+
+  h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 8%;
+  }
+
+  /* .container {
+    padding: 2px 20px;
+    background-image: url(./images/moon.jpg);
+  } */
+
+  .sl-name {
+    font-size: medium;
+    font-family: Impact, Charcoal, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    margin-left: 10px;
+    text-align: left;
+    transition: opacity 0.3s ease;
+  }
+
+  .card-cha {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    width: 300px;
+    height: 300px;
+    background-image: url("./images/cha.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;    
+    position: relative;
+  }
+
+  .card-cha:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    background-image: url("./images/cha1.jpg");
+    background-size: cover;
+  }
+
+  /* Changing text on hover */
+  .card-cha .name-cha {
+    display: block;
+  }
+
+  .card-cha:hover .name-cha {
+    display: none;
+  }
+
+  .card-cha .name-Hae {
+    display: none;
+  }
+
+  .card-cha:hover .name-Hae {
+    display: block;
+  }
+
+  .card-ig {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+    background-image: url("./images/igr.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card-ig:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    background-image: url("./images/ig.jpg");
+    background-size: cover;
+  }
+
+  .card-ig .name-ig1 {
+    display: block;
+  }
+
+  .card-ig:hover .name-ig1 {
+    display: none;
+  }
+
+  .card-ig .name-ig2 {
+    display: none;
+  }
+
+  .card-ig:hover .name-ig2 {
+    display: block;
+  }
+
+  .card-beru {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+    background-image: url("./images/beru.jpg");
+    background-size: 280px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card-beru:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    background-image: url("./images/beru1.jpeg");
+    background-size: cover;
+  }
+
+  .card-beru .name-beru {
+    display: block;
+  }
+
+  .card-beru:hover .name-beru {
+    display: none;
+  }
+
+  .card-beru .name-beru1 {
+    display: none;
+  }
+
+  .card-beru:hover .name-beru1 {
+    display: block;
+  }
+
+  .card-tank {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+    background-image: url("./images/tank2.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card-tank:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    background-image: url("./images/tank1.jpg");
+    background-size: cover;
+  }
+
+  .card-tank .name-tank {
+    display: block;
+  }
+
+  .card-tank:hover .name-tank {
+    display: none;
+  }
+
+  .card-tank .name-tank1 {
+    display: none;
+  }
+
+  .card-tank:hover .name-tank1 {
+    display: block;
+  }
+  #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
